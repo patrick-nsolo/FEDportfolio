@@ -8,14 +8,19 @@ function Header() {
         setShowMobileMenu(!showMobileMenu);
     };
     return (
-        <nav className={'navigation'}>
+        <nav className={`navigation ${showMobileMenu ? 'mobile-menu-open' : ''}`}>
             <div className='logo'>
                 <a href='/'>Patrick Nsolo</a>
             </div>
+            <div className={`menu-icon ${showMobileMenu ? 'open' : ''}`} onClick={toggleMobileMenu}>
+                <div className='bar'></div>
+                <div className='bar'></div>
+                <div className='bar'></div>
+            </div>
             <ul className='nav-links'>
-                <li><a href='#About'>About Me</a></li>
-                <li><a href='#Projects'>My Projects</a></li>
-                <li><a href='#Contact'>Contact Me</a></li>
+                <li><a href='#about'>About Me</a></li>
+                <li><a href='#projects'>My Projects</a></li>
+                <li><a href='#contact'>Contact Me</a></li>
             </ul>     
         </nav>
   )
