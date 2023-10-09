@@ -1,4 +1,23 @@
 .navigation{
     display:flex;
     justify-content: space-between;
+    background-color: #101010;
+    padding:25px 95px;
+    align-items: center;
+}
+.logo a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.nav-links{
+    display:flex;
+}
+.nav-links a{
+    text-decoration: none;
+    padding: 25px;
+    color:#767878
+}
+.nav-links a:hover{
+    color:#FF3131
 }
