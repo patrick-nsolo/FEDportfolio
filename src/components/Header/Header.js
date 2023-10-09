@@ -3,10 +3,16 @@ import './Header.css';
 
 function Header() {
   return (
-    <div>
-        <h1>I am the Header Section</h1>
-        <h2>I will contain the navigation elements in desktop responsive and hamburger in mobile responsive</h2> 
-    </div>
+    <nav className='navigation'>
+        <div className='logo'>
+            <a href='/'>Patrick Nsolo</a>
+        </div>
+        <ul className='nav-links'>
+            <li><a href='#About'>About Me</a></li>
+            <li><a href='#Projects'>My Projects</a></li>
+            <li><a href='#Contact'>Contact Me</a></li>
+        </ul>     
+    </nav>
   )
 }
 
