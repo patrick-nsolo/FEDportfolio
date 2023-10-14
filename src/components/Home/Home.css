@@ -35,8 +35,14 @@
     font-size: calc(1.325rem + .9vw);
     margin-top: -50px;
 }
+.role-tag{
+    color:#ffffff;
+    font-size: calc(1.325rem + .9vw);
+    text-align: center;
+    margin-top: -30px;
+}
 .typed-cursor{
-    opacity:0;
+    cursor:none;
 }
   
   
