@@ -41,8 +41,18 @@
     text-align: center;
     margin-top: -30px;
 }
-.typed-cursor{
-    cursor:none;
+.btn-container{
+    margin-top: 20px;
+    text-align: center;
+}
+.btn-container button{
+    background-color: #FF3131;
+    padding: 15px 32px;
+    border:none;
+    color:#101010;
+    text-align: center;
+    cursor:pointer;
+    
 }
   
   
