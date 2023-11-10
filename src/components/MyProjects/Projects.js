@@ -11,11 +11,11 @@ function Projects() {
           <div className='project-details'>
             <h2>Wellnest Showroom Website</h2>
             <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
-            <a href='https://wellnestshowroom.com/'>Live Page</a>
+            <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
           </div>
         </div>   
     </div>
   )
 }
 
-export default Projects
+export default Projects;
