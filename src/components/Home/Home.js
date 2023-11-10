@@ -15,8 +15,8 @@ const  Home = () => {
         <button>Let's Connect</button>
       </div>
       <a href='/'>
-        <p>My works</p>
-        <div className='caret .caret-float'></div>
+        <p className='works'>My works</p>
+        <div className='caret caret-float'></div>
       </a>
     </div>
   )

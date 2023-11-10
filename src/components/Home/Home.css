@@ -62,6 +62,12 @@ a{
     flex-direction: row;
     align-items: center;
     gap:10px;
+    text-decoration: none;
+}
+.works{
+    font-size: 1.5rem;
+    color: #fff;
+    
 }
 .caret{
     width:0;
@@ -72,7 +78,15 @@ a{
     transition: 0.3s;
 }
 .caret-float{
-    
+    animation: floatAnimation 1.5s ease-in-out infinite;
+}
+@keyframes floatAnimation{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
 }
   
   

@@ -3,9 +3,13 @@ import './Projects.css';
 
 function Projects() {
   return (
-    <div>
-        <h1>I am the Project Section</h1>
-        <h2>I will contain all web design projects neatly </h2>    
+    <div className='project-display'>
+        <div className='wellnest-project'>
+          <div>
+            
+          </div>
+
+        </div>   
     </div>
   )
 }
