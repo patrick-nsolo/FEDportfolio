@@ -1,10 +1,11 @@
 .project-display{
     padding:100px 250px;
 }
-.wellnest-project{
+.wellnest-project, .lhc-project{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 100px;
 }
 .wellnest-img img, .pfl-img img, .lhc-img img{
     width:400px;
@@ -33,7 +34,7 @@
     border-radius: 25px;
 }
 
-.pfl-project, .lhc-project{
+.pfl-project{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;

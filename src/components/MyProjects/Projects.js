@@ -20,9 +20,9 @@ function Projects() {
           </div>
           <div className='project-details'>
             <h2>Paradigm Finance Limited Website</h2>
-            <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
+            <p className='desription'>A Microfinance Bank Website. Technology Stack: HTML, CSS and JS.</p>
             <div className='btn-links'>
-              <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
+              <a href='https://pflnigeria.com/' target='_blank' rel="noreferrer">Live Page</a>
               <a href='https://github.com/patrick-nsolo/pfl-fix' target='_blank' rel="noreferrer">Code</a>
             </div>  
           </div> 
@@ -33,10 +33,10 @@ function Projects() {
           </div>
           <div className='project-details'>
             <h2>Paradigm Finance Limited Website</h2>
-            <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
+            <p className='desription'>An online Health Agency. Technology Stack: HTML, CSS and JS.</p>
             <div className='btn-links'>
-              <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
-              <a href='https://github.com/patrick-nsolo/pfl-fix' target='_blank' rel="noreferrer">Code</a>
+              <a href='https://loftyhealthcareltd.com/' target='_blank' rel="noreferrer">Live Page</a>
+              <a href='https://github.com/patrick-nsolo/LOFTY-HEALTHCARE' target='_blank' rel="noreferrer">Code</a>
             </div>  
           </div> 
         </div> 
