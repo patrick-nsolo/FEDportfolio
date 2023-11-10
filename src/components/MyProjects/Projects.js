@@ -1,8 +1,7 @@
 import React from 'react';
 import './Projects.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Projects() {
+const Projects = () => {
   return (
     <div className='project-display'>
         <div className='wellnest-project'>
@@ -59,21 +58,6 @@ function Projects() {
             <h2>Aurora Digital Solutions Website</h2>
             <p className='desription'>An Online Car Rental Service. Built using WordPress and Elementor</p>
             <a href='https://auroradigitalsolutions.ng/' target='_blank' rel="noreferrer">Live Page</a>
-          </div>
-        </div>
-        <div className='responsive-pages'>
-          <h2>Responsive Landing Pages</h2>
-          <p>These Landing Pages help to show case my ability to make a web application responsive on all device screens.</p>
-          <div className=''>
-            
-
-
-          </div>
-          <div>
-            
-          </div>
-          <div>
-            
           </div>
         </div>
     </div>

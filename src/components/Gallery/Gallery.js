@@ -1,12 +1,24 @@
 import React from 'react';
 import './Gallery.css';
+import { Carousel } from 'react-responsive-carousel';
 
-function Gallery() {
+const Gallery = () => {
+  const images = [
+    '../upload/product-label.webp',
+    '/upload/business-flier.webp',
+    '/upload/company-flier.webp',
+    '/upload/e-flier.webp',
+    '/upload/flier.webp',
+    '/upload/church-flier.webp',
+  ]
   return (
-    <div className='gallery-bg'>
-        <h1>I am the Gallery Section</h1>
-        <h2>I will contain a slide carousel of graphic design images </h2>  
-    </div>
+    <Carousel className='gallery-bg'>
+        {images.map((image,index) => (
+          <div key={index} onClick={() => window.open(image, '_blank')}>
+            <img src={images} alt={`Image ${index}`}/>
+          </div>
+        ))}
+    </Carousel>
   )
 }
 
