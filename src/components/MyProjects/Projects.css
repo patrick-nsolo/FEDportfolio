@@ -40,3 +40,7 @@
     align-items: center;
     margin-top: 100px;
 }
+.btn-links{
+    display: flex;
+    gap: 30px;
+}

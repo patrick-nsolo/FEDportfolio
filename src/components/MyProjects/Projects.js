@@ -21,7 +21,10 @@ function Projects() {
           <div className='project-details'>
             <h2>Paradigm Finance Limited Website</h2>
             <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
-            <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
+            <div className='btn-links'>
+              <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
+              <a href='https://github.com/patrick-nsolo/pfl-fix' target='_blank' rel="noreferrer">Code</a>
+            </div>  
           </div>
         </div>   
     </div>
