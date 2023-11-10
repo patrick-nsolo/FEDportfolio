@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.wellnest-img img, .pfl-img img{
+.wellnest-img img, .pfl-img img, .lhc-img img{
     width:400px;
     height:200px;
     border-radius: 20px;
@@ -33,7 +33,7 @@
     border-radius: 25px;
 }
 
-.pfl-project{
+.pfl-project, .lhc-project{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
