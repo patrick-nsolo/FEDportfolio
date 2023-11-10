@@ -34,6 +34,7 @@
     cursor:none;
     font-size: calc(1.325rem + .9vw);
     margin-top: -50px;
+    user-select: none;
 }
 .role-tag{
     color:#ffffff;
@@ -55,6 +56,23 @@
     border-radius: 25px;
     font-size: 1rem;
     margin:4px 2px;
+}
+a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+}
+.caret{
+    width:0;
+    height:0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top:6px solid #fff;
+    transition: 0.3s;
+}
+.caret-float{
+    
 }
   
   

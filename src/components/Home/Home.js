@@ -2,7 +2,8 @@ import React from 'react';
 import Typed from 'react-typed';
 import './Home.css';
 
-function Home() {
+
+const  Home = () => {
   return (
     <div className="home-container">
       <h1 className="intro">Hello! <span class="wave">👋🏾</span> I'm Patrick.</h1>
@@ -13,6 +14,10 @@ function Home() {
       <div className='btn-container'>
         <button>Let's Connect</button>
       </div>
+      <a href='/'>
+        <p>My works</p>
+        <div className='caret .caret-float'></div>
+      </a>
     </div>
   )
 }
