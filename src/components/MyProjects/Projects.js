@@ -13,6 +13,16 @@ function Projects() {
             <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
             <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
           </div>
+        </div>
+        <div className='pfl-project'>
+          <div className='pfl-img'>
+            <img src='../images/pfl.webp'alt=''/>  
+          </div>
+          <div className='project-details'>
+            <h2>Paradigm Finance Limited Website</h2>
+            <p className='desription'>An e-commerce shop. Built using WordPress, HTML, CSS, and PHP</p>
+            <a href='https://wellnestshowroom.com/' target='_blank' rel="noreferrer">Live Page</a>
+          </div>
         </div>   
     </div>
   )

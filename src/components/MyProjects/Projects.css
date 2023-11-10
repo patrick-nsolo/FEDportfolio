@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.wellnest-img img{
+.wellnest-img img, .pfl-img img{
     width:400px;
     height:200px;
     border-radius: 20px;
@@ -31,4 +31,12 @@
     width: 100px;
     color: #fff;
     border-radius: 25px;
+}
+
+.pfl-project{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
 }
