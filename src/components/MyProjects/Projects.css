@@ -1,0 +1,24 @@
+.project-display{
+    padding:100px 250px;
+}
+.wellnest-project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wellnest-img img{
+    width:400px;
+    height:200px;
+    border-radius: 20px;
+}
+.project-details h2{
+    font-size: 2rem;
+}
+.project-details p{
+    margin-top: -20px;
+}
+.project-details a{
+    background-color: #FF3131;
+    width:100px;
+    height: 40px;
+}
