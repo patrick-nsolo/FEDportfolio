@@ -23,6 +23,9 @@
     margin-top: -20px;
 }
 .project-details a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FF3131;
     padding: 15px;
     width: 100px;
