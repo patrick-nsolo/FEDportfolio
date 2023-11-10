@@ -1,15 +1,15 @@
 .project-display{
     padding:100px 250px;
 }
-.wellnest-project, .lhc-project{
+.wellnest-project, .lhc-project, .aurora-project{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
-.wellnest-img img, .pfl-img img, .lhc-img img{
+.wellnest-img img, .pfl-img img, .lhc-img img, .midris-img img, .aurora-img img{
     width:400px;
-    height:200px;
+    height:250px;
     border-radius: 20px;
 }
 .project-details{
@@ -33,8 +33,7 @@
     color: #fff;
     border-radius: 25px;
 }
-
-.pfl-project{
+.pfl-project, .midris-project{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -44,4 +43,7 @@
 .btn-links{
     display: flex;
     gap: 30px;
+}
+.responsive-pages{
+    
 }

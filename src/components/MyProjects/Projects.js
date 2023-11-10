@@ -40,6 +40,40 @@ function Projects() {
             </div>  
           </div> 
         </div> 
+        <div className='midris-project'>
+          <div className='midris-img'>
+            <img src='../images/midris.webp' alt=''/>  
+          </div>
+          <div className='project-details'>
+            <h2>Midris Autos Website</h2>
+            <p className='desription'>An Online Car Rental Service. Built using WordPress, WooCommerce, and Elementor</p>
+            <a href='https://midrisautos.com/' target='_blank' rel="noreferrer">Live Page</a>
+          </div>
+        </div>
+        <div className='aurora-project'>
+          <div className='aurora-img'>
+            <img src='../images/aurora.webp' alt=''/>  
+          </div>
+          <div className='project-details'>
+            <h2>Aurora Digital Solutions Website</h2>
+            <p className='desription'>An Online Car Rental Service. Built using WordPress and Elementor</p>
+            <a href='https://auroradigitalsolutions.ng/' target='_blank' rel="noreferrer">Live Page</a>
+          </div>
+        </div>
+        <div className='responsive-pages'>
+          <h2>Responsive Landing Pages</h2>
+          <p>These Landing Pages help to show case my ability to make a web application responsive on all device screens.</p>
+          <div>
+            
+
+          </div>
+          <div>
+            
+          </div>
+          <div>
+            
+          </div>
+        </div>
     </div>
   )
 }
