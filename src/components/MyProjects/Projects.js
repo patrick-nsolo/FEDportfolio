@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Projects() {
   return (
@@ -63,8 +64,9 @@ function Projects() {
         <div className='responsive-pages'>
           <h2>Responsive Landing Pages</h2>
           <p>These Landing Pages help to show case my ability to make a web application responsive on all device screens.</p>
-          <div>
+          <div className=''>
             
+
 
           </div>
           <div>
