@@ -1,3 +1,17 @@
-.tool-container{
-    
+.tools-container{
+    margin-top: 50px;
+}
+.stacks{
+    text-align: center;
+}
+.stacks h2{
+    font-size: 2rem;
+    color: #ff3131;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
 }
