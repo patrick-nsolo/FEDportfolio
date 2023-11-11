@@ -5,8 +5,11 @@ const Header = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     
     const toggleMobileMenu = () =>{
-        setShowMobileMenu(!showMobileMenu);
+        setShowMobileMenu(prevState => !prevState);
     };
+    const closeMobileMenu = () =>{
+        
+    }
     
     return (
         <nav className={`navigation ${showMobileMenu ? 'mobile-menu-open' : ''}`}>
