@@ -57,7 +57,7 @@
         left:-100%;
         text-align: center;
         width:100%;
-        transition: 0.7s ease-in-out;
+        transition: left 0.7s ease-in-out;
         background-color: #FF3131;
         z-index: 12;
         
