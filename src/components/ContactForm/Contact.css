@@ -3,11 +3,7 @@
     justify-content: center;
     align-items: center;
     gap: 400px;
-    margin: 50px 0 50px 0;
-    
-}
-.contact{
-    
+    margin: 50px 0 50px 0;   
 }
 .contact h2{
    font-size: 2rem;
@@ -16,10 +12,12 @@
 .contact p{
     font-size: 1.2rem;
     width:500px;
+    margin-top: 20px;
 }
 .contact-links{
     display: flex;
     gap:30px;
+    margin-top: 20px;
 }
 .fa-brands{
     font-size: 3rem;
@@ -68,5 +66,8 @@ button{
     }
     .contact-links{
         margin-top: 20px;
+    }
+    form{
+        margin: 50px 0 50px 0;
     }
 }

@@ -8,6 +8,7 @@ import Gallery from './components/Gallery/Gallery';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Projects from './components/MyProjects/Projects';
+import Tools from './components/Tools/Tools';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects/>
       <Gallery/>
       <About/>
+      <Tools/>
       <Contact/>
     </div>
     

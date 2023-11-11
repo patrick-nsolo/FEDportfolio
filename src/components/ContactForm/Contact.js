@@ -13,13 +13,12 @@ const Contact = () => {
             <a className='m-3' href='https://www.linkedin.com/in/patrick-nsolo-83b095a2/' target='_blank' rel='noreferrer'><i class="fa-brands fa-linkedin icon"></i></a>
         </div>
       </div>
-      <form action='https://formspree.io/f/xbjerzjl'>
+      <form action='https://formspree.io/f/xbjerzjl' method='POST'>
         <label>
           <input
             type='text'
             name='name'
-            value=''
-            onChange=''
+            
             placeholder='Name'
           />
         </label>
@@ -27,8 +26,7 @@ const Contact = () => {
           <input
             type='text'
             name='email'
-            value=''
-            onChange=''
+            
             placeholder='Email'
           />
         </label>
@@ -36,8 +34,7 @@ const Contact = () => {
           <textarea
             type='text'
             name='message'
-            value=''
-            onChange=''
+            
             placeholder='Enter message here...'
           />
         </label>
