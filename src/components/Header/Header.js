@@ -8,7 +8,7 @@ const Header = () => {
         setShowMobileMenu(prevState => !prevState);
     };
     const closeMobileMenu = () =>{
-        
+        setShowMobileMenu(false);
     }
     
     return (
@@ -27,9 +27,9 @@ const Header = () => {
                 <div className='bar'></div>
             </div>
             <ul className={`nav-links ${showMobileMenu ? 'active' : ''}`}>
-                <li><a href='#about'>About Me</a></li>
-                <li><a href='#projects'>My Projects</a></li>
-                <li><a href='#contact'>Contact Me</a></li>
+                <li><a href='#about' onClick={closeMobileMenu}>About Me</a></li>
+                <li><a href='#projects' onClick={closeMobileMenu}>My Projects</a></li>
+                <li><a href='#contact' onClick={closeMobileMenu}>Contact Me</a></li>
             </ul>     
         </nav>
   )
