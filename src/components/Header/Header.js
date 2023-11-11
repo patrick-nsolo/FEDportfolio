@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 
-function Header() {
+const Header = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
 
     const toggleMobileMenu = () =>{
@@ -17,7 +17,7 @@ function Header() {
                 <div className='bar'></div>
                 <div className='bar'></div>
             </div>
-            <ul className={`${styles.nav-links} ${isActive ? styles.active : ''}`}>
+            <ul className='nav-links'>
                 <li><a href='#about'>About Me</a></li>
                 <li><a href='#projects'>My Projects</a></li>
                 <li><a href='#contact'>Contact Me</a></li>
