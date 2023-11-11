@@ -36,20 +36,15 @@ const Tools = () => {
             </div>
             <div className="skills">
                 <div className="skill">
-                    <i className='fa-brands fa-react icon'></i>
-                    <p className=''>REACTJS</p>
+                    <i className='fa-brands fa-joomla icon'></i>
+                    <p className=''>JOOMLA</p>
                 </div>
                 <div className="skill">
-                    <i className="fa-brands fa-github icon"></i>
-                    <p className="tech-text lead">GITHUB</p>
-                </div>
-                <div className="skill">
-                    <i className="fa-brands fa-wordpress icon"></i>
-                    <p className="tech-text lead">WORDPRESS</p>
+                    <i className="fa-brands fa-drupal icon"></i>
+                    <p className="tech-text lead">DRUPAL</p>
                 </div>
             </div>
-        </div>
-      
+        </div>  
     </div>
   )
 }
