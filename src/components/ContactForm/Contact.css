@@ -1,0 +1,18 @@
+.contact{
+   padding:20px 100px;
+}
+.contact h2{
+   font-size: 2rem;
+}
+.contact p{
+    font-size: 1.2rem;
+    width:500px;
+}
+.contact-links{
+    display: flex;
+    gap:30px;
+}
+.fa-brands{
+    font-size: 3rem;
+    color: #ff3131;
+}
