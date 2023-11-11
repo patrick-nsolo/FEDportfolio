@@ -14,7 +14,7 @@ const  Home = () => {
       <div className='btn-container'>
         <button>Let's Connect</button>
       </div>
-      <a href='#projects'>
+      <a href='#projects' className='my_works'>
         <p className='works'>My works</p>
         <div className='caret caret-float'></div>
       </a>

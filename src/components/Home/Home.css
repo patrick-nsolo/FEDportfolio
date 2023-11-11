@@ -6,23 +6,6 @@
     height: 70vh;
     background-color: #101010;
 }
-.wave {
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
-    display: inline-block;
-}  
-@keyframes wave-animation {
-      0% { transform: rotate( 0.0deg) }
-     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-     20% { transform: rotate(-8.0deg) }
-     30% { transform: rotate(14.0deg) }
-     40% { transform: rotate(-4.0deg) }
-     50% { transform: rotate(10.0deg) }
-     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-    100% { transform: rotate( 0.0deg) }
-}
 .intro {
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 300;
@@ -33,14 +16,17 @@
     color:#FF3131;
     cursor:none;
     font-size: calc(1.325rem + .9vw);
-    margin-top: -50px;
+    margin-top: 20px;
     user-select: none;
 }
 .role-tag{
     color:#ffffff;
     font-size: calc(1.325rem + .9vw);
     text-align: center;
-    margin-top: -30px;
+    margin-top: 20px;
+}
+.my_works{
+    margin-top: 20px;
 }
 .btn-container{
     margin-top: 20px;
@@ -92,21 +78,17 @@ a{
 @media (max-width:768px){
     .home-container{
         padding: 0;
+        height: 50vh;
     }
     .role{
         font-size: 1rem;
-        margin-top: 0;
         text-align: center;
     }
     .role-tag{
         font-size: 1rem;
-        margin-top: 0;
-    }
-    .intro{
-        font-size: 2rem;
     }
     .btn-container{
-        margin-top:0 ;
+        margin-top: ;
     }
 } 
   
