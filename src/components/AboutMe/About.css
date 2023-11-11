@@ -1,0 +1,11 @@
+@media (max-width:768px){
+    .about{
+        padding:40px;
+        background: hsl(0, 100%, 60%);
+        
+    }
+    .about p{
+        margin-top: 20px;
+        color:#fff;
+    }
+}
