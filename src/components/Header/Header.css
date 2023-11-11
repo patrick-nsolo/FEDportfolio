@@ -21,18 +21,22 @@
 .nav-links a:hover{
     color:#FF3131
 }
-.menu-icon{
-    border: 1px solid #FF3131;
-    padding: 10px;
-    border-radius: 5px;
-}
-.bar{
-    display:block;
-    width: 25px;
-    height: 1px;
-    margin:5px auto;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    background: #FF3131;
-    
+
+@media (max-width:768px){
+    .menu-icon{
+        border: 1px solid #FF3131;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .bar{
+        display:block;
+        width: 25px;
+        height: 1px;
+        margin:5px auto;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        background: #FF3131;
+        
+    }
+
 }

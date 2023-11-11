@@ -3,7 +3,7 @@ import './Projects.css';
 
 const Projects = () => {
   return (
-    <div className='project-display'>
+    <div className='project-display' id='projects'>
         <div className='wellnest-project'>
           <div className='wellnest-img'>
             <img src='../images/wellnest.webp'alt=''/>  
