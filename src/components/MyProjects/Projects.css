@@ -47,3 +47,22 @@
 .responsive-pages{
     margin-top: 100px;
 }
+
+@media (max-width:768px){
+    .project-display{
+        padding: 0;
+    }
+    .wellnest-project, .lhc-project, .aurora-project, .pfl-project, .midris-project{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        margin-top: 40px;
+    }
+    .wellnest-img img, .pfl-img img, .lhc-img img, .midris-img img, .aurora-img img{
+        width:300px;
+        height:150px;
+    }
+}
