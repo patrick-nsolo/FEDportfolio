@@ -35,7 +35,7 @@
         opacity:0;
     }
     .menu-icon.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
+        transform: translateY(5px) rotate(45deg);
     }
     .menu-icon.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
@@ -54,12 +54,12 @@
         flex-direction: column;
         gap: 0;
         top: 50px;
-        left:0;
-        text-align: start;
-        widt:100%;
+        left:-100%;
+        text-align: center;
+        width:100%;
         transition: 0.7s ease-in-out;
         background-color: #FF3131;
-        z-index: 1;
+        z-index: 12;
         
     }
     .nav-links.active{

@@ -3,16 +3,19 @@ import './Header.css';
 
 const Header = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
-
+    
     const toggleMobileMenu = () =>{
         setShowMobileMenu(!showMobileMenu);
     };
+    const closeMobileMenu = () => {
+        setShowMobileMenu(false);
+      };
     return (
         <nav className={`navigation ${showMobileMenu ? 'mobile-menu-open' : ''}`}>
             <div className='logo'>
                 <a href='/'>Patrick Nsolo</a>
             </div>
-            <div className={`menu-icon ${showMobileMenu ? 'open' : ''}`} onClick={toggleMobileMenu}>
+            <div className={`menu-icon ${showMobileMenu ? 'active' : ''}`} onClick={toggleMobileMenu}>
                 <div className='bar'></div>
                 <div className='bar'></div>
                 <div className='bar'></div>
