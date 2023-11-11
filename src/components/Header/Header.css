@@ -38,27 +38,26 @@
         margin:5px auto;
         -webkit-transition: all 0.5s ease;
         transition: all 0.5s ease;
-        background: #FF3131;
-        
+        background: #FF3131;     
     }
     .nav-links{
         position: absolute;
         flex-direction: column;
         gap: 0;
-        top: 70px;
-        left:-100px;
+        top: 50px;
+        left:-50px;
         text-align: start;
         width:100%;
         transition: 0.7s ease-in-out;
         background-color: #FF3131;
-        padding: 10px;
-        display: none;
+        paddin: 10px;
+        
     }
     .nav-links.active{
         left:0;
     }
     .nav-links li{
-        margin: 16px 0;
+        margin: 10px 0;
     }
 
 }
