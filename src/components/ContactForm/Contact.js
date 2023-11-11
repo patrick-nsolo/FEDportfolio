@@ -18,7 +18,6 @@ const Contact = () => {
           <input
             type='text'
             name='name'
-            
             placeholder='Name'
           />
         </label>
@@ -26,7 +25,6 @@ const Contact = () => {
           <input
             type='text'
             name='email'
-            
             placeholder='Email'
           />
         </label>
@@ -34,7 +32,6 @@ const Contact = () => {
           <textarea
             type='text'
             name='message'
-            
             placeholder='Enter message here...'
           />
         </label>

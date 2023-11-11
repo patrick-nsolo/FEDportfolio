@@ -5,7 +5,7 @@ const Tools = () => {
   return (
     <div className='tools-container'>
         <div className='stacks'>
-            <h2>My Stack</h2>
+            <h2>My Tech Stack</h2>
             <div className="skills">
                 <div className="skill">
                     <i className='fa-brands fa-html5 icon'></i>
@@ -29,20 +29,24 @@ const Tools = () => {
                     <i className="fa-brands fa-github icon"></i>
                     <p className="tech-text lead">GITHUB</p>
                 </div>
-                <div className="skill">
-                    <i className="fa-brands fa-wordpress icon"></i>
-                    <p className="tech-text lead">WORDPRESS</p>
-                </div>
             </div>
-            <div className="skills">
-                <div className="skill">
-                    <i className='fa-brands fa-joomla icon'></i>
-                    <p className=''>JOOMLA</p>
+            <div className='other_skills'>
+                <h3>Other Skills</h3>
+                    <div className="skills">
+                    <div className="skill">
+                        <i className="fa-brands fa-wordpress icon"></i>
+                        <p className="tech-text lead">WORDPRESS</p>
+                    </div>
+                    <div className="skill">
+                        <i className='fa-brands fa-joomla icon'></i>
+                        <p className=''>JOOMLA</p>
+                    </div>
+                    <div className="skill">
+                        <i className="fa-brands fa-drupal icon"></i>
+                        <p className="tech-text lead">DRUPAL</p>
+                    </div>
                 </div>
-                <div className="skill">
-                    <i className="fa-brands fa-drupal icon"></i>
-                    <p className="tech-text lead">DRUPAL</p>
-                </div>
+
             </div>
         </div>  
     </div>

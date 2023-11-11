@@ -66,8 +66,16 @@ button{
     }
     .contact-links{
         margin-top: 20px;
+        justify-content: center;
+    }
+    .contact{
+        text-align: center;
     }
     form{
         margin: 50px 0 50px 0;
     }
+}
+
+@media(min-width:768px) and (max-width:1400px){
+
 }

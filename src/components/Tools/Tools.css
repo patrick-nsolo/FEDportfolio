@@ -3,15 +3,25 @@
 }
 .stacks{
     text-align: center;
+    padding: 40px;
 }
 .stacks h2{
     font-size: 2rem;
     color: #ff3131;
 }
+.stacks h3{
+    font-size: 1.5rem;
+    color: #ff3131;
+    
+}
 .skills{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     gap: 50px;
     text-align: center;
+    margin-top: 30px;
+}
+.other_skills{
+    margin-top: 50px;
 }
