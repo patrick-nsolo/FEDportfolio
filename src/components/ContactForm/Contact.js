@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 
-function Contact() {
+const Contact = () => {
   return (
     <div className='contact-container'>
       <div className='contact' id='contact'>
@@ -13,6 +13,35 @@ function Contact() {
             <a className='m-3' href='https://www.linkedin.com/in/patrick-nsolo-83b095a2/' target='_blank' rel='noreferrer'><i class="fa-brands fa-linkedin icon"></i></a>
         </div>
       </div>
+      <form onSubmit=''>
+        <label>
+          <input
+            type='text'
+            name='name'
+            value=''
+            onChange=''
+            placeholder='Name'
+          />
+        </label>
+        <label>
+          <input
+            type='text'
+            name='email'
+            value=''
+            onChange=''
+            placeholder='Email'
+          />
+        </label>
+        <label>
+          <textarea
+            name='message'
+            value=''
+            onChange=''
+            placeholder='Message'
+          />
+        </label>
+        <button type='submit'>Submit</button>
+      </form>
     </div>
     
   )
