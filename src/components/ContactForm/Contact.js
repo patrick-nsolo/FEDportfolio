@@ -13,7 +13,7 @@ const Contact = () => {
             <a className='m-3' href='https://www.linkedin.com/in/patrick-nsolo-83b095a2/' target='_blank' rel='noreferrer'><i class="fa-brands fa-linkedin icon"></i></a>
         </div>
       </div>
-      <form onSubmit=''>
+      <form action='https://formspree.io/f/xbjerzjl'>
         <label>
           <input
             type='text'
@@ -34,6 +34,7 @@ const Contact = () => {
         </label>
         <label>
           <textarea
+            type='text'
             name='message'
             value=''
             onChange=''
