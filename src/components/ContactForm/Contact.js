@@ -37,7 +37,7 @@ const Contact = () => {
             name='message'
             value=''
             onChange=''
-            placeholder='Message'
+            placeholder='Enter message here...'
           />
         </label>
         <button type='submit'>Submit</button>
