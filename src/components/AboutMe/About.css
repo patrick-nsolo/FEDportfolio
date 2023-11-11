@@ -1,5 +1,20 @@
 
-
+.about{
+    text-align: center;
+    padding:50px 250px;
+    background-color: #ff3131;
+    margin-top: 50px;
+    color:#fff;
+    text-align: left;
+    height: 400px;
+}
+.about h2{
+    font-size: 2rem;
+}
+.about p{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
 
 
 
@@ -7,7 +22,8 @@
     .about{
         padding:40px;
         background: hsl(0, 100%, 60%);
-        color:#fff;
+        text-align: left;
+        height: 800px;
     }
     .about p{
         margin-top: 20px;
