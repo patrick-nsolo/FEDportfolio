@@ -38,5 +38,11 @@
         background: #FF3131;
         
     }
+    .nav-links{
+        position: absolute;
+        flex-direction: column;
+        gap: 0;
+        top: 70px;
+    }
 
 }
