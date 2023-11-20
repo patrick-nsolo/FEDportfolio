@@ -32,7 +32,7 @@ const Projects = () => {
             <img src='../images/lofty.webp'alt=''/>  
           </div>
           <div className='project-details'>
-            <h2>Paradigm Finance Limited Website</h2>
+            <h2>Lofty HealthCare Limited Website</h2>
             <p className='desription'>An online Health Agency. Technology Stack: HTML, CSS and JS.</p>
             <div className='btn-links'>
               <a href='https://loftyhealthcareltd.com/' target='_blank' rel="noreferrer">Live Page</a>
