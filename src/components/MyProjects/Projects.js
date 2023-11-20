@@ -56,7 +56,7 @@ const Projects = () => {
           </div>
           <div className='project-details'>
             <h2>Aurora Digital Solutions Website</h2>
-            <p className='desription'>An Online Car Rental Service. Built using WordPress and Elementor</p>
+            <p className='desription'>A Company Website Built using WordPress and Elementor</p>
             <a href='https://auroradigitalsolutions.ng/' target='_blank' rel="noreferrer">Live Page</a>
           </div>
         </div>
